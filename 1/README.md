@@ -10,6 +10,7 @@ Building: `cd docker ; docker build -t tiagoshibata/pcs3746 .`
 ln initramfs/init.c code/init.c
 ln linux/arch/arm/tools/syscall.tbl code/syscall.tbl
 ln linux/include/linux/syscalls.h code/syscalls.h
+ln -s linux/sys_hello_world/ code/
 
 ## Running
 

@@ -9,6 +9,7 @@ Building: `cd docker ; docker build -t tiagoshibata/pcs3746 .`
 ## Prepare environment
 ln initramfs/init.c code/init.c
 ln linux/arch/arm/tools/syscall.tbl code/syscall.tbl
+ln linux/include/linux/syscalls.h code/syscalls.h
 
 ## Running
 

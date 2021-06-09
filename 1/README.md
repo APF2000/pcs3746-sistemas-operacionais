@@ -6,6 +6,10 @@ Puling: `docker pull tiagoshibata/pcs3746`
 
 Building: `cd docker ; docker build -t tiagoshibata/pcs3746 .`
 
+## Prepare environment
+ln initramfs/init.c code/init.c
+ln linux/arch/arm/tools/syscall.tbl code/syscall.tbl
+
 ## Running
 
 Clone this repository with `git clone --recursive https://github.com/tiagoshibata/pcs3746-sistemas-operacionais.git` to clone with submodules. The `./run.sh` script does most of the required work.
